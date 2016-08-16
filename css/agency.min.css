@@ -65,7 +65,7 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl[disabled]:focus,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl,
 fieldset[disabled] .btn-xl.active,fieldset[disabled] .btn-xl:active,
 fieldset[disabled] .btn-xl:focus,fieldset[disabled] .btn-xl:hover
-	{background-color:#fed136;border-color:#fed136}
+	{background-color:#fed136;border-color:#fed136;}
 
 .btn-xl .badge{color:#fed136;background-color:#fff}
 
@@ -73,16 +73,13 @@ fieldset[disabled] .btn-xl:focus,fieldset[disabled] .btn-xl:hover
 
 .navbar-custom .navbar-brand{color:#fed136;font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive}
 
-
-/*--- NAV BUTTONS ---*/ 
-
 .navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:hover{color:#fec503}.navbar-custom .nav li a,.navbar-custom .navbar-toggle
-{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#000;text-transform:uppercase}
+{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;text-transform:uppercase}
 
 .navbar-custom .navbar-collapse{border-color:rgba(255,255,255,.02)}
 
-.navbar-custom .navbar-toggle{background-color:#fed136;border-color:#fed136;font-size:12px}
+.navbar-custom .navbar-toggle{color:#000; background-color:#fed136;border-color:#fed136;font-size:12px}
 
 .navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover{background-color:#fed136}
 
