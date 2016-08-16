@@ -73,6 +73,9 @@ fieldset[disabled] .btn-xl:focus,fieldset[disabled] .btn-xl:hover
 
 .navbar-custom .navbar-brand{color:#fed136;font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive}
 
+
+/*--- NAV BUTTONS ---*/ 
+
 .navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:hover{color:#fec503}.navbar-custom .nav li a,.navbar-custom .navbar-toggle
 {font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#000;text-transform:uppercase}
