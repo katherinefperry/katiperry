@@ -75,11 +75,11 @@ fieldset[disabled] .btn-xl:focus,fieldset[disabled] .btn-xl:hover
 
 .navbar-custom{background-color:#222;border-color:transparent}
 
-.navbar-custom .navbar-brand{color:#fed136;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,cursive}
+.navbar-custom .navbar-brand{color:#fed136;font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive}
 
 .navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:hover{color:#fec503}.navbar-custom .nav li a,.navbar-custom .navbar-toggle
-{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;text-transform:uppercase}
+{font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;text-transform:uppercase}
 
 .navbar-custom .navbar-collapse{border-color:rgba(255,255,255,.02)}
 
@@ -124,9 +124,9 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-	font-family:"Cubano","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-style:normal;
-	font-weight:400;
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style:italic;
+	font-weight:200;
 	font-size:22px;
 	line-height:22px;
 	margin-bottom:25px
@@ -148,9 +148,9 @@ header .intro-text .intro-heading {
 	} 
 
 	header .intro-text .intro-lead-in {
-		font-family:"Cubano","Helvetica Neue",Helvetica,Arial,sans-serif;
-		font-style:normal;
-		font-weight:400;
+		font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-style:italic;
+		font-weight:200;
 		font-size:40px;
 		line-height:40px;
 		margin-bottom:25px
