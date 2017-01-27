@@ -352,6 +352,9 @@ footer span.copyright,footer ul.quicklinks {
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
 } 
 
+/* TIMELINE / RESEARCH */
+
+
 #portfolio *{z-index:2}@media (min-width:767px){#portfolio .portfolio-item{margin:0 0 30px}}.timeline {
 	list-style:none;
 	padding:0;
