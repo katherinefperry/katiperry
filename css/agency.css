@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AVENIR", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -57,9 +57,9 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #c00000;
-  border-color: #c00000;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #a8a4a4;
+  border-color: #a8a4a4;
+  font-family: "AVENIR", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -103,7 +103,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #c00000;
   border-color: #c00000;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
@@ -139,11 +139,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #c00000;
-  border-color: #c00000;
+  background-color: #a8a4a4;
+  border-color: #a8a4a4;
 }
 .btn-xl .badge {
-  color: #c00000;
+  color: #a8a4a4;
   background-color: white;
 }
 .navbar-custom {
@@ -151,8 +151,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #c00000;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #a8a4a4;
+  font-family: "Playfair Display", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -164,8 +164,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #c00000;
-  border-color: #c00000;
+  background-color: #a8a4a4;
+  border-color: #a8a4a4;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;

@@ -11,11 +11,11 @@ body {
 	overflow-x:hidden;
 	font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 	webkit-tap-highlight-
-	color:#cc0000
+	color:#a8a4a4
 }
 
 .btn-primary,.btn-xl,h1,h2,h3,h4,h5,h6 {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-weight:700;
 }
@@ -26,7 +26,8 @@ body {
 
 .text-muted{color:#777}
 
-.text-primary,a{color:#cc0000}
+/**DETAIL BADGES**/
+.text-primary,a{color:#a8a4a4}
 
 p{font-size:14px;line-height:1.75}
 
@@ -34,7 +35,7 @@ p.large{font-size:16px}
 
 a,a.active,a:active,a:focus,a:hover{outline:0}
 
-a.active,a:active,a:focus,a:hover{color:#d70000}
+a.active,a:active,a:focus,a:hover{color:#000}
 
 .img-centered{margin:0 auto}
 
@@ -42,12 +43,12 @@ a.active,a:active,a:focus,a:hover{color:#d70000}
 
 .bg-darkest-gray{background-color:#222}
 
-.btn-primary{color:#fff;background-color:#cc0000;border-color:#cc0000}
+.btn-primary{color:#fff;background-color:#a8a4a4;border-color:#a8a4a4}
 
 .btn-primary.active,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open .dropdown-toggle.btn-primary {
 	color:#fff;
 	background-color:#d70000;
-	border-color:#c00000
+	border-color:#a8a4a4
 }
 
 .btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled:active,.btn-primary.disabled:focus,
@@ -55,11 +56,14 @@ a.active,a:active,a:focus,a:hover{color:#d70000}
 .btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,
 fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-	background-color:#cc7000
-	;border-color:#cc7000
+	background-color:#a8a4a4
+	;border-color:#a8a4a4
 }
 
-.btn-primary .badge{color:#cc7000;background-color:#fff}
+.btn-primary .badge {
+	color:#a8a4a4;
+	background-color:#fff
+}
 
 .btn-xl {
 	color:#000;
@@ -79,17 +83,17 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl[disabled]:focus,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl,
 fieldset[disabled] .btn-xl.active,fieldset[disabled] .btn-xl:active,
 fieldset[disabled] .btn-xl:focus,fieldset[disabled] .btn-xl:hover
-	{background-color:#cc7000;border-color:#cc7000;}
+	{background-color:#a8a4a4;border-color:#a8a4a4;}
 
-.btn-xl .badge{color:#cc0000;background-color:#fff}
+.btn-xl .badge{color:#a8a4a4;background-color:#fff}
 
 .navbar-custom{background-color:#222;border-color:transparent}
 
 /* NAME AT THE TOP */
 
 .navbar-custom .navbar-brand {
-	color:#cc0000;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,cursive;
+	color:#000;
+	font-family:Avenir,"Helvetica Neue",Helvetica,Arial,cursive;
 	text-transform: lowercase;
 	font-weight: 400;
 	font-size: 2em;
@@ -107,7 +111,7 @@ fieldset[disabled] .btn-xl:focus,fieldset[disabled] .btn-xl:hover
 
 .navbar-custom .navbar-brand {
 	color:#fff;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,cursive;
+	font-family:"Avenir","Helvetica Neue",Helvetica,Arial,cursive;
 	text-transform: lowercase;
 	font-weight: 400;
 	font-size: 1.5em;
@@ -132,13 +136,13 @@ fieldset[disabled] .btn-xl:focus,fieldset[disabled] .btn-xl:hover
 /* NAV BAR HOME PAGE */
 
 .navbar-custom .nav li a,.navbar-custom .navbar-toggle
-{font-family:"Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;color:#cc0000;text-transform:uppercase}
+{font-family:"Avenir","Helvetica Neue",Helvetica,Arial,sans-serif;color:#a8a4a4;text-transform:uppercase}
 
 .navbar-custom .navbar-collapse{border-color:rgba(255,255,255,.02)}
 
 .navbar-custom .navbar-toggle{color:#000; background-color:#fff;border-color:#000;font-size:12px}
 
-.navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover{border-color: #cc0000; background-color: #fff}
+.navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover{border-color: #a8a4a4; background-color: #fff}
 
 .navbar-custom .nav li a{font-weight:400;letter-spacing:1px}
 
@@ -199,20 +203,20 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-	font-family:"Cormorant Garamond", serif;
-	text-transform: lowercase;
+	font-family:"Playfair Display", serif;
+	text-transform: none;
 	font-style:italic;
 	font-weight:700;
-	font-size:3em;
-	line-height:22px;
-	margin-bottom:25px
+	font-size:4.5em;
+	line-height:1em;
+	margin-bottom:10px;
 }
 
 header .intro-text .intro-heading {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	text-transform:uppercase;
+	font-family: "Avenir","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: lowercase;
 	font-weight:200;
-	font-size:3em;
+	font-size:2.5em;
 	line-height:50px;
 	margin-bottom:25px}
 
@@ -230,23 +234,20 @@ header .intro-text .intro-heading {
 	} 
 
 	header .intro-text .intro-lead-in {
-		font-family:"Cormorant Garamond","Helvetica Neue",Helvetica,Arial,sans-serif;
-		text-transform: lowercase;
+		font-family:"Playfair Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+		text-transform: none;
 		letter-spacing: 2px;
-		font-style:italic;
-		font-weight:700;
-		font-size:4.6em;
-		line-height:40px;
-		margin-bottom:25px
+		font-size:8em;
+		line-height:1em;
 	}
 
 	header .intro-text .intro-heading {
-		font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-		text-transform:uppercase;
+		font-family:"Avenir","Helvetica Neue",Helvetica,Arial,sans-serif;
+		text-transform:lowercase;
 		font-weight:200;
 		font-size:4em;
-		line-height:75px;
-		margin-bottom:50px
+		line-height:125px;
+		margin-bottom:25px
 	}
 	
 	}
@@ -261,6 +262,7 @@ section {
 }
 
 section h2.section-heading {
+	font-family: "avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:40px;
 	margin-top:-1em;
 	margin-bottom:15px;
@@ -349,7 +351,7 @@ section h3.section-subheading {
 } 
 
 footer span.copyright,footer ul.quicklinks {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
+	font-family:Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif
 } 
 
 /* TIMELINE / RESEARCH */
@@ -416,7 +418,7 @@ footer span.copyright,footer ul.quicklinks {
 	height:80px;
 	position:absolute;
 	z-index:100;
-	background-color:#cc0000;
+	background-color:#a8a4a4;
 	color:#fff;
 	border-radius:100%;
 	border:7px solid #f1f1f1;
@@ -598,33 +600,33 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-	border-color:#cc0000;
+	border-color:#a8a4a4;
 	box-shadow:none
 }
 
 section#contact ::-webkit-input-placeholder {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#eee
 }
 
 section#contact :-moz-placeholder {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#eee
 }
 
 section#contact ::-moz-placeholder {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#eee
 }
 
 section#contact :-ms-input-placeholder {
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#eee
@@ -661,7 +663,7 @@ ul.social-buttons li a {
 	-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s
 }
 
-ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{background-color:#cc0000}
+ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{background-color:#a8a4a4}
 
 .btn.active,.btn:active,.btn:active:focus,.btn:focus{outline:0}
 
@@ -697,7 +699,10 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 .portfolio-modal .modal-content p.item-intro
 {margin:20px 0 30px;font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px}
 
-.portfolio-modal .modal-content ul.list-inline{margin-bottom:30px;margin-top:0}
+.portfolio-modal .modal-content ul.list-inline {
+	margin-bottom:30px;
+	argin-top:0
+}
 
 .portfolio-modal .modal-content img{margin-bottom:30px}
 
@@ -725,9 +730,9 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 
 .portfolio-modal .modal-backdrop{opacity:0;display:none}
 
-::-moz-selection{text-shadow:none;background:#cc0000}
+::-moz-selection{text-shadow:none;background:#a8a4a4}
 
-::selection{text-shadow:none;background:#cc0000}
+::selection{text-shadow:none;background:#a8a4a4}
 
 img::selection{background:0 0}img::-moz-selection{background:0 0}
 
