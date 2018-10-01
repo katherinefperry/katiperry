@@ -818,6 +818,10 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 
 img::selection{background:0 0}img::-moz-selection{background:0 0}
 
+video {
+	border: 1px #000 solid;
+	border-radius: 8px;
+}
 
 
 
