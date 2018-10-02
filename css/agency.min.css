@@ -826,10 +826,9 @@ video {
 	border-radius: 8px;
 }
 
-
-
-
-
+.portfolio-caption h5 {
+	text-transform: none;
+}
 
 
 
